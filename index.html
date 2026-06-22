@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iguana Haus</title>
+
+    <!--google fronts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+     <!--Menu-->
+    <header>
+        <nav class ="navbar">
+            <a href="inicio.html" class="logo">IGUANA HAUS</a>  <!--regresa al incio de la pagina web-->
+
+            <ul class="nav-link">
+                <li> <a href="#inicio">Inicio</a></li>
+                <li> <a href="#nosotros">Nosotros</a></li>
+                <li> <a href="#servicios">Servicios</a></li>
+                <li> <a href="#habitaciones">Habitaciones</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Inicio-->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a Iguana Haus</h1>
+            <p>Tu mejor opción de hospedaje en <span class="resaltado">Iquitos</span></p>
+            <a href="#habitaciones" class="btn">Ver Habitaciones</a>
+        </div>
+    </section>
+
+    <!--Nosotros-->
+  <section id="nosotros" class="nosotros">
+    <div class="nosotros-container">
+      <h2>Sobre Nosotros</h2>
+      <p class="intro">
+        <strong>Iguana Haus</strong> es un hospedaje acogedor en el corazón de Iquitos, 
+        ideal para quienes buscan comodidad y una experiencia auténtica en la selva. 
+        Ofrecemos habitaciones confortables, un ambiente familiar y una ubicación estratégica 
+        cerca de los principales atractivos de la ciudad.
+      </p>
+      <div class="nosotros-item">
+        <div class="nosotros-img">
+          <img src="IMG/IMG_9.jpg" alt="Imagen de Iguana Haus">
+        </div>
+        <div class="nosotros-texto">
+          <h4>Tu refugio en la Selva</h4>
+          <p><strong>Iguana Haus</strong> es el lugar perfecto para descansar después de explorar la Amazonía. Un espacio tranquilo y acogedor donde puedes relajarte y recargar energías rodeado del ambiente único de Iquitos.</p>
+        </div>
+      </div>
+      <div class="nosotros-item reverse">
+        <div class="nosotros-img">
+          <img src="IMG/IMG_11.PNG" alt="imagen cuarto" class="imagen-circular">
+        </div>
+        <div class="nosotros-texto">
+          <h4>Tranquilidad y paz en cada rincón</h4>
+          <p>Disfruta de la tranquilidad de Iguana Haus, donde cada habitación está pensada para tu descanso, con un ambiente cómodo, limpio y relajado que te hará sentir como en casa.</p>
+        </div>
+      </div>
+      <div class="nosotros-item">
+        <div class="nosotros-img">
+          
+          <img src="IMG/IMG_12.PNG" alt="Detalle de confección">
+        </div>
+        <div class="nosotros-texto">
+          <h4>Lo que dicen nuestros huéspedes</h4>
+          <p>En <strong>Iguana Haus</strong> nos enorgullece recibir excelentes comentarios de viajeros de todo el mundo, quienes destacan la calidez de la atención, la comodidad de nuestras habitaciones y la tranquilidad del lugar. Su satisfacción es nuestra mejor carta de presentación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--Servicios-->
+    <section id="servicios" class="servicio">
+        <h2>Servicios Incluidos</h2>
+        <p>Al hospedarte en Iguana Haus disfrutarás de:</p>
+        <ul class="lista-personalizada"> 
+            <li>Desayuno incluido</li>
+            <li>WiFi gratis</li>
+            <li>Asesoría turística personalizada</li>
+        </ul>
+
+        <h3>¿Cómo reservar?</h3>
+        <ol class="lista-ordenada">
+          <li>Elige tu habitación ideal</li>
+          <li>Contacta con nosotros por email o redes sociales</li>
+          <li>Confirma tu reserva y ¡prepárate para la aventura!</li>
+        </ol>
+    </section> 
+
+
+  <!--Habitaciones-->
+  <section id="habitaciones" class="habitacion">
+    <div class="habitacion-container">
+        <h2>Nuestras Habitaciones</h2>
+        <p>Descansa en un espacio que combina comodidad y autenticidad amazónica. Cada habitación es un refugio diseñado para brindarte tranquilidad y una experiencia única en Iquitos.</p>
+        <div class="row-habitaciones">
+        <div class="habitacion-card">
+          <img src="IMG/IMG_7.PNG" alt="habitacion matrimonial">
+          <div class="overlay">
+            <h5>Habitacion Matrimonial</h5>
+            <a href="Reservar.html">Reservar</a>
+          </div>
+        </div>
+        <div class="habitacion-card">
+          <img src="IMG/IMG_6.PNG" alt="habitacion doble">
+          <div class="overlay">
+            <h5>Habitacion Doble</h5>
+            <a href="Reservar.html">Reservar</a>
+          </div>
+        </div>
+        <div class="habitacion-card">
+          <img src="IMG/IMG_8.PNG" alt="habitacion triple">
+          <div class="overlay">
+            <h5>Habitacion Triple</h5>
+            <a href="Reservar.html">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!--Contacto--> 
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="tu nombre">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="tu correo">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/IguanaHausandTours" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/iguana_haus_iquitos/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+
+    
+
+</body>
+</html>
